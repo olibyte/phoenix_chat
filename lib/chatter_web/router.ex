@@ -1,6 +1,7 @@
 defmodule ChatterWeb.Router do
   use ChatterWeb, :router
 
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
